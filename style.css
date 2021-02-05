@@ -10,6 +10,7 @@ h1{
 
 h2{
     font-family: 'Montserrat', sans-serif;
+    color: #b08e6d;
 }
 
 .t2{
@@ -30,10 +31,14 @@ body{
     margin: 0px;
 }
 
-h2 {
-    color: #b08e6d;
+#column{
+    display:flex;
+    flex-direction: row;
 }
 
+.column{
+    margin-right: 5px;
+}
 
 img {
     height: 150px;
@@ -42,8 +47,7 @@ img {
 
 footer{
     text-align: right;
-    background-color: #b08e6d;
-    
+    background-color: #be643b;
     height: 50px;
     display: flex;
     justify-content: flex-end;
